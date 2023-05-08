@@ -1,4 +1,4 @@
-# Whisper app
+# Daily-Journal
 > Welcome to our project! This is a Daily-journal app made in Node.js and Express.js framework. It is a web application where user can share their daily blogs. The aim of creatinig this project was to learn how to use template engine in a web app .
 > Live demo [_here_](https://daily-journals.cyclic.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
