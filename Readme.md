@@ -18,6 +18,7 @@
 
 
 ## Technologies Used
+- Bootstrap 4
 - ejs ^2.6.1
 - express 4.16.3
 - lodash 4.17.11
