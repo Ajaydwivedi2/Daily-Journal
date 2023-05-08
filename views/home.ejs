@@ -4,6 +4,8 @@
   <p>Welcome to the Daily Journal Family! My name is Ajay and I am glad that you are here to read our famous blog posts.
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ipsum facere iste velit ea voluptatem incidunt illum
     porro aperiam fugiat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, omnis.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum sint doloribus nihil, accusamus saepe accusantium!
+    Velit illum aliquam corrupti numquam.
     <br>Thank you for joining us.
   </p>
 
@@ -11,9 +13,9 @@
 
   <% posts.forEach(function(post){ %>
 
-    <h2>
+    <h3>
       <%=post.title%>
-    </h2>
+    </h3>
     <p>
       <%=post.content.substring(0, 100) + " ..." %>
         <a href="/posts/<%=post._id%>">Read More</a>
