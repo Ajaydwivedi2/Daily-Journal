@@ -37,6 +37,9 @@ $ node app.js
 ## Project Status
 Project is complete
 
+## Demo
+
+https://daily-journals.cyclic.app
 
 ## Contact
 Created by [@ajaydwivedi](www.linkedin.com/in/ajaydwivedi2) - feel free to contact me!
