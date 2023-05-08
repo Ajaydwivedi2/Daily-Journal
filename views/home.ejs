@@ -1,22 +1,26 @@
-
 <%- include("partials/header"); -%>
-    <h1>Home</h1>
- 
-    <p >Welcome to the Daily Journal Family! My name is Ajay and I am glad that you are here to read our famous blog posts. I will be happy if you add a blog about yourself. And also share it with your loved ones so that they can make their life memorable.
-    <br>Thank you for joining us.</p>
+  <h1>Home</h1>
+
+  <p>Welcome to the Daily Journal Family! My name is Ajay and I am glad that you are here to read our famous blog posts.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ipsum facere iste velit ea voluptatem incidunt illum
+    porro aperiam fugiat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, omnis.
+    <br>Thank you for joining us.
+  </p>
 
 
 
-  <%  posts.forEach(function(post){ %>
+  <% posts.forEach(function(post){ %>
 
-    <h1><%=post.title%></h1>
+    <h2>
+      <%=post.title%>
+    </h2>
     <p>
-    <%=post.content.substring(0, 100) + " ..."%>
-    <a href="/posts/<%=post._id%>">Read More</a>
+      <%=post.content.substring(0, 100) + " ..." %>
+        <a href="/posts/<%=post._id%>">Read More</a>
     </p>
 
 
     <% }) %>
 
 
-<%- include("partials/footer"); -%>
+      <%- include("partials/footer"); -%>
